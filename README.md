@@ -36,3 +36,10 @@ If zlib.h is missing then install it using
 Ubuntu: ```sudo apt-get install libz-dev```
 
 Fedora: ```sudo dnf install libz-devel```
+
+Extracting Factory Image for Pixel Devices
+------------------------------------------
+add simg2img path to your PATH variable
+once done , cd into simg2img folder
+./getblobs.sh urltofactoryimage
+
